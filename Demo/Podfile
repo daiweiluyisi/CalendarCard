@@ -1,0 +1,5 @@
+platform:ios,’8.1’
+target ‘日历’ do
+pod 'SDAutoLayout', '~> 2.1.3'
+pod ‘Masonry’
+end

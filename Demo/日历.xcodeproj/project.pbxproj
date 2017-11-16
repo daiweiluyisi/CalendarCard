@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89F7D10C3AE13F27E023B916 /* libPods-日历.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 524F9ABA1466A5E157543A7E /* libPods-日历.a */; };
+		C562487C1FBD20BD008C6F87 /* CardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C562487B1FBD20BD008C6F87 /* CardItem.m */; };
+		C57000631FBAB53F00482A2F /* MSSCalendarCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C57000531FBAB53E00482A2F /* MSSCalendarCollectionReusableView.m */; };
+		C57000641FBAB53F00482A2F /* MSSCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C57000551FBAB53E00482A2F /* MSSCalendarCollectionViewCell.m */; };
+		C57000651FBAB53F00482A2F /* MSSCalendarHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C57000581FBAB53E00482A2F /* MSSCalendarHeaderModel.m */; };
+		C57000661FBAB53F00482A2F /* MSSCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C570005A1FBAB53E00482A2F /* MSSCalendarManager.m */; };
+		C570006A1FBAB53F00482A2F /* MSSCircleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C57000621FBAB53E00482A2F /* MSSCircleLabel.m */; };
+		C5815C8E1FB057B800B11E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5815C8D1FB057B800B11E04 /* AppDelegate.m */; };
+		C5815C911FB057B800B11E04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5815C901FB057B800B11E04 /* ViewController.m */; };
+		C5815C941FB057B800B11E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5815C921FB057B800B11E04 /* Main.storyboard */; };
+		C5815C961FB057B800B11E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5815C951FB057B800B11E04 /* Assets.xcassets */; };
+		C5815C991FB057B800B11E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5815C971FB057B800B11E04 /* LaunchScreen.storyboard */; };
+		C5815C9C1FB057B800B11E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5815C9B1FB057B800B11E04 /* main.m */; };
+		C5815CA81FB057FC00B11E04 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5815CA41FB057FC00B11E04 /* CardView.m */; };
+		C5815CA91FB057FC00B11E04 /* CardViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5815CA71FB057FC00B11E04 /* CardViewItem.m */; };
+		C5815CB61FB0587E00B11E04 /* CardItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5815CAF1FB0587E00B11E04 /* CardItem.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34C8429F6E4DE468590966F8 /* Pods-日历.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日历.release.xcconfig"; path = "Pods/Target Support Files/Pods-日历/Pods-日历.release.xcconfig"; sourceTree = "<group>"; };
+		524F9ABA1466A5E157543A7E /* libPods-日历.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-日历.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D59160C904A246C471CC1E /* Pods-日历.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日历.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日历/Pods-日历.debug.xcconfig"; sourceTree = "<group>"; };
+		C562487B1FBD20BD008C6F87 /* CardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardItem.m; sourceTree = "<group>"; };
+		C57000521FBAB53E00482A2F /* MSSCalendarCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarCollectionReusableView.h; sourceTree = "<group>"; };
+		C57000531FBAB53E00482A2F /* MSSCalendarCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarCollectionReusableView.m; sourceTree = "<group>"; };
+		C57000541FBAB53E00482A2F /* MSSCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		C57000551FBAB53E00482A2F /* MSSCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		C57000561FBAB53E00482A2F /* MSSCalendarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarDefine.h; sourceTree = "<group>"; };
+		C57000571FBAB53E00482A2F /* MSSCalendarHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarHeaderModel.h; sourceTree = "<group>"; };
+		C57000581FBAB53E00482A2F /* MSSCalendarHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarHeaderModel.m; sourceTree = "<group>"; };
+		C57000591FBAB53E00482A2F /* MSSCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarManager.h; sourceTree = "<group>"; };
+		C570005A1FBAB53E00482A2F /* MSSCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarManager.m; sourceTree = "<group>"; };
+		C57000611FBAB53E00482A2F /* MSSCircleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCircleLabel.h; sourceTree = "<group>"; };
+		C57000621FBAB53E00482A2F /* MSSCircleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCircleLabel.m; sourceTree = "<group>"; };
+		C5815C891FB057B800B11E04 /* 日历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5815C8C1FB057B800B11E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5815C8D1FB057B800B11E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5815C8F1FB057B800B11E04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5815C901FB057B800B11E04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5815C931FB057B800B11E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5815C951FB057B800B11E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5815C981FB057B800B11E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5815C9A1FB057B800B11E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5815C9B1FB057B800B11E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5815CA31FB057FC00B11E04 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		C5815CA41FB057FC00B11E04 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		C5815CA51FB057FC00B11E04 /* CardViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewConstants.h; sourceTree = "<group>"; };
+		C5815CA61FB057FC00B11E04 /* CardViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewItem.h; sourceTree = "<group>"; };
+		C5815CA71FB057FC00B11E04 /* CardViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewItem.m; sourceTree = "<group>"; };
+		C5815CAF1FB0587E00B11E04 /* CardItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardItem.xib; sourceTree = "<group>"; };
+		C5815CB01FB0587E00B11E04 /* CardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5815C861FB057B800B11E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F7D10C3AE13F27E023B916 /* libPods-日历.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E747B93918E6215A08CBB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2D59160C904A246C471CC1E /* Pods-日历.debug.xcconfig */,
+				34C8429F6E4DE468590966F8 /* Pods-日历.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C66722B046E2C9597567932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				524F9ABA1466A5E157543A7E /* libPods-日历.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C57000511FBAB53E00482A2F /* MSSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				C57000521FBAB53E00482A2F /* MSSCalendarCollectionReusableView.h */,
+				C57000531FBAB53E00482A2F /* MSSCalendarCollectionReusableView.m */,
+				C57000541FBAB53E00482A2F /* MSSCalendarCollectionViewCell.h */,
+				C57000551FBAB53E00482A2F /* MSSCalendarCollectionViewCell.m */,
+				C57000561FBAB53E00482A2F /* MSSCalendarDefine.h */,
+				C57000571FBAB53E00482A2F /* MSSCalendarHeaderModel.h */,
+				C57000581FBAB53E00482A2F /* MSSCalendarHeaderModel.m */,
+				C57000591FBAB53E00482A2F /* MSSCalendarManager.h */,
+				C570005A1FBAB53E00482A2F /* MSSCalendarManager.m */,
+				C57000611FBAB53E00482A2F /* MSSCircleLabel.h */,
+				C57000621FBAB53E00482A2F /* MSSCircleLabel.m */,
+			);
+			path = MSSCalendar;
+			sourceTree = "<group>";
+		};
+		C5815C801FB057B800B11E04 = {
+			isa = PBXGroup;
+			children = (
+				C5815C8B1FB057B800B11E04 /* 日历 */,
+				C5815C8A1FB057B800B11E04 /* Products */,
+				65E747B93918E6215A08CBB7 /* Pods */,
+				6C66722B046E2C9597567932 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5815C8A1FB057B800B11E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5815C891FB057B800B11E04 /* 日历.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5815C8B1FB057B800B11E04 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				C5815CAA1FB0586800B11E04 /* CardItem */,
+				C5815CA21FB057FC00B11E04 /* Card */,
+				C57000511FBAB53E00482A2F /* MSSCalendar */,
+				C5815C8C1FB057B800B11E04 /* AppDelegate.h */,
+				C5815C8D1FB057B800B11E04 /* AppDelegate.m */,
+				C5815C8F1FB057B800B11E04 /* ViewController.h */,
+				C5815C901FB057B800B11E04 /* ViewController.m */,
+				C5815C921FB057B800B11E04 /* Main.storyboard */,
+				C5815C951FB057B800B11E04 /* Assets.xcassets */,
+				C5815C971FB057B800B11E04 /* LaunchScreen.storyboard */,
+				C5815C9A1FB057B800B11E04 /* Info.plist */,
+				C5815C9B1FB057B800B11E04 /* main.m */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		C5815CA21FB057FC00B11E04 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				C5815CA31FB057FC00B11E04 /* CardView.h */,
+				C5815CA41FB057FC00B11E04 /* CardView.m */,
+				C5815CA51FB057FC00B11E04 /* CardViewConstants.h */,
+				C5815CA61FB057FC00B11E04 /* CardViewItem.h */,
+				C5815CA71FB057FC00B11E04 /* CardViewItem.m */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		C5815CAA1FB0586800B11E04 /* CardItem */ = {
+			isa = PBXGroup;
+			children = (
+				C5815CB01FB0587E00B11E04 /* CardItem.h */,
+				C562487B1FBD20BD008C6F87 /* CardItem.m */,
+				C5815CAF1FB0587E00B11E04 /* CardItem.xib */,
+			);
+			path = CardItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5815C881FB057B800B11E04 /* 日历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5815C9F1FB057B800B11E04 /* Build configuration list for PBXNativeTarget "日历" */;
+			buildPhases = (
+				5CD329E8E544F3EF2B57E2D9 /* [CP] Check Pods Manifest.lock */,
+				C5815C851FB057B800B11E04 /* Sources */,
+				C5815C861FB057B800B11E04 /* Frameworks */,
+				C5815C871FB057B800B11E04 /* Resources */,
+				A09EB8C9D8F0229CB0DC6F3F /* [CP] Embed Pods Frameworks */,
+				2E41668AC1595E96676EB7C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "日历";
+			productName = "日历";
+			productReference = C5815C891FB057B800B11E04 /* 日历.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5815C811FB057B800B11E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "成都爱车保信息技术有限公司";
+				TargetAttributes = {
+					C5815C881FB057B800B11E04 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5815C841FB057B800B11E04 /* Build configuration list for PBXProject "日历" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5815C801FB057B800B11E04;
+			productRefGroup = C5815C8A1FB057B800B11E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5815C881FB057B800B11E04 /* 日历 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5815C871FB057B800B11E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5815CB61FB0587E00B11E04 /* CardItem.xib in Resources */,
+				C5815C991FB057B800B11E04 /* LaunchScreen.storyboard in Resources */,
+				C5815C961FB057B800B11E04 /* Assets.xcassets in Resources */,
+				C5815C941FB057B800B11E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E41668AC1595E96676EB7C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-日历/Pods-日历-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD329E8E544F3EF2B57E2D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A09EB8C9D8F0229CB0DC6F3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-日历/Pods-日历-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5815C851FB057B800B11E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57000661FBAB53F00482A2F /* MSSCalendarManager.m in Sources */,
+				C5815C911FB057B800B11E04 /* ViewController.m in Sources */,
+				C5815C9C1FB057B800B11E04 /* main.m in Sources */,
+				C57000641FBAB53F00482A2F /* MSSCalendarCollectionViewCell.m in Sources */,
+				C5815CA81FB057FC00B11E04 /* CardView.m in Sources */,
+				C5815C8E1FB057B800B11E04 /* AppDelegate.m in Sources */,
+				C562487C1FBD20BD008C6F87 /* CardItem.m in Sources */,
+				C570006A1FBAB53F00482A2F /* MSSCircleLabel.m in Sources */,
+				C57000651FBAB53F00482A2F /* MSSCalendarHeaderModel.m in Sources */,
+				C57000631FBAB53F00482A2F /* MSSCalendarCollectionReusableView.m in Sources */,
+				C5815CA91FB057FC00B11E04 /* CardViewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5815C921FB057B800B11E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5815C931FB057B800B11E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5815C971FB057B800B11E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5815C981FB057B800B11E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5815C9D1FB057B800B11E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5815C9E1FB057B800B11E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5815CA01FB057B800B11E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D59160C904A246C471CC1E /* Pods-日历.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B4C476B27;
+				INFOPLIST_FILE = "日历/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ichebao.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		C5815CA11FB057B800B11E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C8429F6E4DE468590966F8 /* Pods-日历.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B4C476B27;
+				INFOPLIST_FILE = "日历/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ichebao.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5815C841FB057B800B11E04 /* Build configuration list for PBXProject "日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5815C9D1FB057B800B11E04 /* Debug */,
+				C5815C9E1FB057B800B11E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5815C9F1FB057B800B11E04 /* Build configuration list for PBXNativeTarget "日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5815CA01FB057B800B11E04 /* Debug */,
+				C5815CA11FB057B800B11E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5815C811FB057B800B11E04 /* Project object */;
+}

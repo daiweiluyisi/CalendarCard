@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B84-wK-j6G">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--用车月报-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Cc-C4-4bF"/>
+                        <viewControllerLayoutGuide type="bottom" id="WnR-lA-M5n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ab-gt-ycA" customClass="CardView">
+                                <rect key="frame" x="15" y="50.5" width="345" height="566"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4ab-gt-ycA" secondAttribute="height" multiplier="345:566" id="0a5-mE-WH6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.96862745098039216" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4ab-gt-ycA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="6Oi-D3-hBv"/>
+                            <constraint firstItem="4ab-gt-ycA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="F39-sf-RuS"/>
+                            <constraint firstItem="4ab-gt-ycA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guZ-0S-e1A"/>
+                            <constraint firstAttribute="trailing" secondItem="4ab-gt-ycA" secondAttribute="trailing" constant="15" id="hPj-iv-n60"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="用车月报" id="70r-o4-n3H">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="XoL-29-TZW">
+                            <connections>
+                                <action selector="calendarAction:" destination="BYZ-38-t0r" id="9bL-oM-7oa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cardView" destination="4ab-gt-ycA" id="cxj-Bl-lwr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ii3-gu-FKU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B84-wK-j6G" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vVf-pS-fx7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="t2G-Bl-1Bj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ReH-ip-RH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="133.13343328335833"/>
+        </scene>
+    </scenes>
+</document>
